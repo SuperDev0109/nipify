@@ -233,9 +233,9 @@ p.tagline, .address-detail a.tagline {
     margin-bottom: 23px;
     background: #fff; }
   .page-left .page-inner .trans-overlay-dark-about {
-    background: #000;
+    background: #07552a;
     /* The Fallback */
-    background: rgba(0, 0, 0, 0.25);
+    /* background: rgba(0, 0, 0, 0.25); */
     position: absolute;
     top: 0;
     height: 100%;
@@ -258,9 +258,9 @@ p.tagline, .address-detail a.tagline {
   padding-bottom: 100px;
   background: transparent url("../img/rightbg.jpg"); }
   .page-right .page-inner .trans-overlay-dark-contact {
-    background: #fff;
+    background: white;
     /* The Fallback */
-    background: rgba(255, 255, 255, 0.9);
+    /* background: rgba(255, 255, 255, 0.9); */
     position: absolute;
     top: 0;
     height: 100%;

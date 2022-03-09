@@ -16,6 +16,7 @@
 		
 		<!--CSS-->
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/custom.css" />
 	</head>
 	
 	<body data-ng-app="contactApp">
@@ -338,14 +339,14 @@
 												</span>
 											</div>
 											<div class="item" >
-												<span class="fa-qual"><img src="custom/img/tech2.png" style="width: 190px; height: 190px;" /></span>
+												<span class="fa-qual"><img src="custom/img/tech3.png" style="width: 190px; height: 190px;" /></span>
 												<span class="qual-tag"> Higher Earnings</span>
 												<span class="qual-desc">
 													Guaranteed higher earnings with our platform than our competitors
 												</span>
 											</div>
 											<div class="item" >
-												<span class="fa-qual"><img src="custom/img/tech3.png" style="width: 190px; height: 190px;" /></span>
+												<span class="fa-qual"><img src="custom/img/tech2.png" style="width: 190px; height: 190px;" /></span>
 												<span class="qual-tag"> 24/7 Support</span>
 												<span class="qual-desc">
 													Our Nipify support staff are available to support you 24/7
@@ -360,33 +361,19 @@
 									<p class="tagline">Our Technology</p>
 									<!--Client Slider-->
 									<div id="qualities">
-										<div class="qualities"> 
+										<div class="team"> 
 											<div class="item" >
-												<span class="fa-qual"><img src="custom/img/tech5.png" style="width: 190px; height: 190px;" /></span>
+												<span class="fa-qual"><center><img src="custom/img/tech5.png" style="width: 190px; height: 190px;" /></center></span>
 												<span class="qual-tag"> Smart App</span>
 												<span class="qual-desc">
 													Nipify will be available on all smart platform devices
 												</span>
 											</div>
 											<div class="item" >
-												<span class="fa-qual"><img src="custom/img/tech6.png" style="width: 190px; height: 190px;" /></span>
+												<span class="fa-qual"><center><img src="custom/img/tech6.png" style="width: 190px; height: 190px;" /></center></span>
 												<span class="qual-tag">Blockchain</span>
 												<span class="qual-desc">
 													We aim to utilise the blockchain technology to provide maximum security and proof of work
-												</span>
-											</div>
-											<div class="item" >
-												<span class="fa-qual"><img src="custom/img/tech2.png" style="width: 190px; height: 190px;" /></span>
-												<span class="qual-tag"> Higher Earnings</span>
-												<span class="qual-desc">
-													Guaranteed higher earnings with our platform than our competitors
-												</span>
-											</div>
-											<div class="item" >
-												<span class="fa-qual"><img src="custom/img/tech3.png" style="width: 190px; height: 190px;" /></span>
-												<span class="qual-tag"> 24/7 Support</span>
-												<span class="qual-desc">
-													Our Nipify support staff are available to support you 24/7
 												</span>
 											</div>
 										</div>
@@ -407,24 +394,24 @@
 						<div class="container align-center detail-info">
 							<div class="row">
 							<div data-ng-controller="ContactController" class="panel-body">
-								<h3 class="col-lg-12 col-xs-9" data-ng-bind="formData.inputName||'Hello..'">Hello..</h3>
+								<h3 class="col-lg-12 col-xs-9" data-ng-bind="formData.inputName||'Hello..'" >Hello..</h3>
 								<div class="col-lg-6 col-md-6 col-sm-6 col-xs-9">
 									<form data-ng-submit="submit(contactform, $event)"  name="contactform" method="post" class="form-horizontal" role="form">
 										<div class="form-group input--hoshi" data-ng-class="{ 'has-error': contactform.inputName.$invalid && submitted }">
 											<div class="input-wrap">
-												<input data-ng-model="formData.inputName" type="text" class="form-control input__field input input__field--hoshi" id="inputName" name="inputName" placeholder="Name" required>
+												<input data-ng-model="formData.inputName" type="text" class="form-control input__field input input__field--hoshi textWhite" id="inputName" name="inputName" placeholder="Name" required>
 												<label class="input__label input__label input__label--hoshi input__label--hoshi-color-1 input__label--hoshi input__label--hoshi-color-1" ></label>
 											</div>	
 										</div>
 										<div class="form-group  input--hoshi" data-ng-class="{ 'has-error': contactform.inputEmail.$invalid && submitted }">
 											<div class="input-wrap">
-												<input data-ng-model="formData.inputEmail" type="email" class="form-control input input__field input__field--hoshi" placeholder="Your Email" id="inputEmail" name="inputEmail" required>
+												<input data-ng-model="formData.inputEmail" type="email" class="form-control input input__field input__field--hoshi textWhite" placeholder="Your Email" id="inputEmail" name="inputEmail" required>
 												<label class="input__label input__label--hoshi input__label--hoshi-color-1"></label>
 											</div>	
 										</div>
 										<div class="form-group  input--hoshi" data-ng-class="{ 'has-error': contactform.inputMessage.$invalid && submitted }">
 											<div class="input-wrap">
-												<textarea data-ng-model="formData.inputMessage" class="form-control input input__field input__field--hoshi" rows="4" id="inputMessage" name="inputMessage" placeholder="message" required></textarea>
+												<textarea data-ng-model="formData.inputMessage" class="form-control input input__field input__field--hoshi textWhite" rows="4" id="inputMessage" name="inputMessage" placeholder="message" required></textarea>
 												<label class="input__label input__label--hoshi input__label--hoshi-color-1"></label>
 											</div>	
 										</div>
