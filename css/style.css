@@ -119,7 +119,7 @@ p, .address-detail a {
   z-index: -1;
   width: 100%;
   height: 10px;
-  background: #000;
+  background: #07552a;
   -webkit-transform: translate3d(-100%, 0, 0);
   transform: translate3d(-100%, 0, 0);
   pointer-events: none; }
@@ -216,7 +216,7 @@ p.tagline, .address-detail a.tagline {
   padding-bottom: 40px; }
 
 .small-hr {
-  background: #000 none repeat scroll 0 0;
+  background: #07552a none repeat scroll 0 0;
   display: block;
   height: 4px;
   width: 32px; }
@@ -343,7 +343,8 @@ p.tagline, .address-detail a.tagline {
     display: block; }
   #qualities .item, #team .item {
     padding: 0 32px;
-    overflow: hidden; }
+    overflow: hidden;
+    min-height: 379px; }
   #qualities .fa-qual, #team .fa-qual {
     font-size: 36px;
     padding-top: 28px;
@@ -418,8 +419,8 @@ p.tagline, .address-detail a.tagline {
   right: 45px; }
 
 .btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default.focus:active, .btn-default:active:focus, .btn-default:active:hover, .open > .dropdown-toggle.btn-default.focus, .open > .dropdown-toggle.btn-default:focus, .open > .dropdown-toggle.btn-default:hover {
-  background: #000;
-  border-color: #000;
+  background: #07552a;
+  border-color: #07552a;
   color: #fff;
   outline: none; }
 
@@ -428,15 +429,15 @@ p.tagline, .address-detail a.tagline {
   color: #fff;
   letter-spacing: 1px;
   text-transform: uppercase;
-  border-color: #000;
+  border-color: #07552a;
   border-radius: 0;
   height: 57px;
   width: 203px;
-  background: #000; }
+  background: #07552a; }
   .btn:hover, .btn:focus, .btn:active {
-    background: #000;
+    background: #0b803f;
     color: #fff;
-    border-color: #000;
+    border-color: #0b803f;
     outline: none; }
     .btn:hover .arrow:after, .btn:focus .arrow:after, .btn:active .arrow:after {
       width: 20px; }
@@ -920,7 +921,7 @@ p.tagline, .address-detail a.tagline {
       font-size: 13px; }
 
   .logo img {
-    width: 50px; } }
+    width: 100%; } }
 @media only screen and (max-width: 973px) {
   .copyright .social-icons {
     padding-bottom: 12px; } }
@@ -983,7 +984,7 @@ p.tagline, .address-detail a.tagline {
     padding-bottom: 20px; }
 
   .logo img {
-    width: auto; }
+    width: 100%; }
 
   .page {
     position: static;

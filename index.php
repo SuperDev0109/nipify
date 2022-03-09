@@ -51,7 +51,7 @@
 						<div class="col-lg-8 col-md-9 col-sm-9 col-xs-9 align-center content-wrap">
 						
 						<!--Logo-->
-						<div class="logo align-center text-left"><img src="custom/img/logo_1.png" style="width: 100%;" alt="logo">
+						<div class="logo align-center text-left"><img src="custom/img/logo_1.png" alt="logo">
 						</div>
 						<!--/Logo-->
 						
@@ -63,13 +63,13 @@
 								<div  class="preloader"></div>
 								<div class="align-center text-left">
 									<span class="small-hr animated fadeInLeft"  data-animation="fadeInLeft" data-out-animation="fadeOutLeft" data-out-animation-delay="200"></span>
-									<p class="animated fadeInLeft"  data-animation="fadeInLeft" data-out-animation="fadeOutLeft" data-out-animation-delay="300">We are busy working on something awesome.</p>
+									<p class="animated fadeInLeft"  data-animation="fadeInLeft" data-out-animation="fadeOutLeft" data-out-animation-delay="300" style="color: #07552a">We are busy working on something awesome.</p>
 									<div class="type-wrap text-left">
-										<h1  class="animated fadeInLeft"  data-animation="fadeInLeft" data-out-animation="fadeOutLeft" data-out-animation-delay="900"><span id="typed" ></span></h1>
+										<h1  class="animated fadeInLeft"  data-animation="fadeInLeft" data-out-animation="fadeOutLeft" data-out-animation-delay="900"><span id="typed" style="color: #07552a;"></span></h1>
 									</div>
 									
 									<div class="notify-btn main-menu">
-										<a  href="#contact_fullname" class="btn btn-default animated fadeInLeft" data-animation="fadeInLeft" data-animation-delay="1000" data-out-animation="fadeInLeft" data-out-animation-delay="600" data-toggle="modal" data-target="#notify-my"><span class="button-label text-left">Notify me</span><span class="arrow-wrap"><span class="arrow"></span></span></a>
+										<a  href="#contact_fullname" class="btn btn-default animated fadeInLeft" data-animation="fadeInLeft" data-animation-delay="1000" data-out-animation="fadeInLeft" data-out-animation-delay="600" data-toggle="modal" data-target="#notify-my"><span class="button-label text-left">Register</span><span class="arrow-wrap"><span class="arrow"></span></span></a>
 									</div>
 								</div>		
 							</section>
@@ -234,30 +234,31 @@
 							</section>
 							<!--/Notify Success Form-->
 													
-							<div class="copyright">
+							<div class="copyright" style="display: flex; flex-direction: column">
+								
 								<ul class="social-icons">
 									<li>
 										<a href="" class="social-icon">
-											<i class="fa fa-facebook"></i>
+											<i class="fa fa-facebook" style="color: #07552a;"></i>
 										</a>
 									</li>
 									<li>
 										<a href="" class="social-icon">
-											<i class="fa fa-instagram"></i>
+											<i class="fa fa-instagram" style="color: #07552a;"></i>
 										</a>
 									</li>
 									<li>
 										<a href="" class="social-icon">
-											<i class="fa fa-youtube-play"></i>
+											<i class="fa fa-youtube-play" style="color: #07552a;"></i>
 										</a>
 									</li>
 									<li>
 										<a href="" class="social-icon">
-											<i class="fa fa-twitter"></i>
+											<i class="fa fa-twitter" style="color: #07552a;"></i>
 										</a>
 									</li>
 								</ul>
-								<p>Nipify ™ powered by KPVE Group</p>
+								<p style="margin-left: 4px; margin-top: 10px; color: #07552a">Nipify ™ powered by KPVE Group</p>
 							</div>
 						</div>
 						<!--/main content-->
@@ -315,53 +316,39 @@
 									<h3>About</h3>
 								</div>	
 								<div class="col-lg-9 col-md-8 col-sm-8 col-xs-9">
-									<p class="tagline">We handcraft unique design & digital experiences to surprise the universe.</p>
+									<p class="tagline">Introducing Nipify! The worlds new and innovative freelancer platform launching in 2023</p>
 									<span class="small-hr"></span>
-									<p class="align-center">Pogody is a Modern & Innovative Responsive Coming Soon Template by hencework. Loaded with outstanding effects that catches user's eye creating a subconscious mental interaction through color, font, effects, layout, icons & every pixel on the screen.</p>
+									<p class="align-center">We're combining years of freelancing experience with a team of highly skilled web experts to bring you a new fast and easy way to connect with working professionals from around the world. Unlike other platforms we aim to provide more profits to our freelancers and more control over the quality of work</p>
 									
 									<!--Client Slider-->
 									<div id="qualities">
 										<div class="qualities"> 
 											<div class="item" >
-												<span class="fa-qual"><i class="fa fa-cog"></i></span>
-												<span class="qual-tag">Angular js</span>
+												<span class="fa-qual"><img src="custom/img/tech4.png" style="width: 190px; height: 190px;" /></span>
+												<span class="qual-tag"> Secure</span>
 												<span class="qual-desc">
-													Lorem ipsum dolor sit amet, consectetur adipiscing elit adipiscing elit.
+													We prioritise security and strive to ensure a safe and reliable working platform
 												</span>
 											</div>
 											<div class="item" >
-												<span class="fa-qual"><i class="fa fa-gavel"></i></span>
-												<span class="qual-tag">Bootstrap Sass</span>
+												<span class="fa-qual"><img src="custom/img/tech1.png" style="width: 190px; height: 190px;" /></span>
+												<span class="qual-tag">Global Connections</span>
 												<span class="qual-desc">
-													Lorem ipsum dolor sit amet, consectetur adipiscing elit adipiscing elit.
+													Connect with likeminded, talented individuals from around the world
 												</span>
 											</div>
 											<div class="item" >
-												<span class="fa-qual"><i class="fa fa-sitemap"></i></span>
-												<span class="qual-tag"> CSS3</span>
+												<span class="fa-qual"><img src="custom/img/tech2.png" style="width: 190px; height: 190px;" /></span>
+												<span class="qual-tag"> Higher Earnings</span>
 												<span class="qual-desc">
-													Lorem ipsum dolor sit amet, consectetur adipiscing elit adipiscing elit.
+													Guaranteed higher earnings with our platform than our competitors
 												</span>
 											</div>
 											<div class="item" >
-												<span class="fa-qual"><i class="fa fa-space-shuttle"></i></span>
-												<span class="qual-tag">HTML5</span>
+												<span class="fa-qual"><img src="custom/img/tech3.png" style="width: 190px; height: 190px;" /></span>
+												<span class="qual-tag"> 24/7 Support</span>
 												<span class="qual-desc">
-													Lorem ipsum dolor sit amet, consectetur adipiscing elit adipiscing elit.
-												</span>
-											</div>
-											<div class="item" >
-												<span class="fa-qual"><i class="fa fa-soundcloud"></i></span>
-												<span class="qual-tag"> Mailchimp</span>
-												<span class="qual-desc">
-													Lorem ipsum dolor sit amet, consectetur adipiscing elit adipiscing elit.
-												</span>
-											</div>
-											<div class="item" >
-												<span class="fa-qual"><i class="fa fa-trophy"></i></span>
-												<span class="qual-tag"> Ajax</span>
-												<span class="qual-desc">
-													Lorem ipsum dolor sit amet, consectetur adipiscing elit adipiscing elit.
+													Our Nipify support staff are available to support you 24/7
 												</span>
 											</div>
 										</div>
@@ -369,139 +356,43 @@
 									<!--/Client Slider-->
 								</div>	
 								<!--Team Slider-->
-								<div class="col-lg-offset-3 col-md-offset-3 col-sm-offset-3 col-lg-7 col-md-8 col-sm-8 col-xs-9 team-sec">
-									<p class="tagline">Our Team</p>
-									<span class="small-hr"></span>
-									<div id="team">
-										<div class="team"> 
-											<div class="item">
-												<div class="team-img-wrap">
-													<img src="img/team1.jpg" alt="team1">
-													<div class="team-overlay">
-														<ul class="social-icons">
-															<li>
-																<a href="" class="social-icon">
-																	<i class="fa fa-facebook"></i>
-																</a>
-															</li>
-															<li>
-																<a href="" class="social-icon">
-																	<i class="fa fa-twitter"></i>
-																</a>
-															</li>
-															<li>
-																<a href="" class="social-icon">
-																	<i class="fa fa-linkedin"></i>
-																</a>
-															</li>
-															<li>
-																<a href="" class="social-icon">
-																	<i class="fa fa-behance"></i>
-																</a>
-															</li>
-														</ul>
-													</div>
-												</div>	
-												<span class="name"> marry</span>
-												<span class="desg"> ceo											</span>
+								<div class="col-lg-offset-3 col-lg-9 col-md-8 col-sm-8 col-xs-9">
+									<p class="tagline">Our Technology</p>
+									<!--Client Slider-->
+									<div id="qualities">
+										<div class="qualities"> 
+											<div class="item" >
+												<span class="fa-qual"><img src="custom/img/tech5.png" style="width: 190px; height: 190px;" /></span>
+												<span class="qual-tag"> Smart App</span>
+												<span class="qual-desc">
+													Nipify will be available on all smart platform devices
+												</span>
 											</div>
 											<div class="item" >
-												<div class="team-img-wrap">
-													<img src="img/team2.jpg" alt="team1">
-													<div class="team-overlay">
-														<ul class="social-icons">
-															<li>
-																<a href="" class="social-icon">
-																	<i class="fa fa-facebook"></i>
-																</a>
-															</li>
-															<li>
-																<a href="" class="social-icon">
-																	<i class="fa fa-twitter"></i>
-																</a>
-															</li>
-															<li>
-																<a href="" class="social-icon">
-																	<i class="fa fa-linkedin"></i>
-																</a>
-															</li>
-															<li>
-																<a href="" class="social-icon">
-																	<i class="fa fa-behance"></i>
-																</a>
-															</li>
-														</ul>
-													</div>
-												</div>	
-												<span class="name"> david</span>
-												<span class="desg"> coo											</span>
+												<span class="fa-qual"><img src="custom/img/tech6.png" style="width: 190px; height: 190px;" /></span>
+												<span class="qual-tag">Blockchain</span>
+												<span class="qual-desc">
+													We aim to utilise the blockchain technology to provide maximum security and proof of work
+												</span>
 											</div>
 											<div class="item" >
-												<div class="team-img-wrap">
-													<img src="img/team3.jpg" alt="team1">
-													<div class="team-overlay">
-														<ul class="social-icons">
-															<li>
-																<a href="" class="social-icon">
-																	<i class="fa fa-facebook"></i>
-																</a>
-															</li>
-															<li>
-																<a href="" class="social-icon">
-																	<i class="fa fa-twitter"></i>
-																</a>
-															</li>
-															<li>
-																<a href="" class="social-icon">
-																	<i class="fa fa-linkedin"></i>
-																</a>
-															</li>
-															<li>
-																<a href="" class="social-icon">
-																	<i class="fa fa-behance"></i>
-																</a>
-															</li>
-														</ul>
-													</div>
-												</div>	
-												<span class="name"> john</span>
-												<span class="desg"> ceo											</span>
+												<span class="fa-qual"><img src="custom/img/tech2.png" style="width: 190px; height: 190px;" /></span>
+												<span class="qual-tag"> Higher Earnings</span>
+												<span class="qual-desc">
+													Guaranteed higher earnings with our platform than our competitors
+												</span>
 											</div>
 											<div class="item" >
-												<div class="team-img-wrap">
-													<img src="img/team4.jpg" alt="team1">
-													<div class="team-overlay">
-														<ul class="social-icons">
-															<li>
-																<a href="" class="social-icon">
-																	<i class="fa fa-facebook"></i>
-																</a>
-															</li>
-															<li>
-																<a href="" class="social-icon">
-																	<i class="fa fa-twitter"></i>
-																</a>
-															</li>
-															<li>
-																<a href="" class="social-icon">
-																	<i class="fa fa-linkedin"></i>
-																</a>
-															</li>
-															<li>
-																<a href="" class="social-icon">
-																	<i class="fa fa-behance"></i>
-																</a>
-															</li>
-														</ul>
-													</div>
-												</div>	
-												<span class="name"> elina</span>
-												<span class="desg"> ceo											</span>
+												<span class="fa-qual"><img src="custom/img/tech3.png" style="width: 190px; height: 190px;" /></span>
+												<span class="qual-tag"> 24/7 Support</span>
+												<span class="qual-desc">
+													Our Nipify support staff are available to support you 24/7
+												</span>
 											</div>
-										
 										</div>
 									</div>
-								</div>	
+									<!--/Client Slider-->
+								</div>
 								<!--/Team Slider-->
 							</div>
 						</div>
@@ -514,7 +405,42 @@
 				<div class="page page-right">
 					<div  class="page-inner full-height">
 						<div class="container align-center detail-info">
-							
+							<div class="row">
+							<div data-ng-controller="ContactController" class="panel-body">
+								<h3 class="col-lg-12 col-xs-9" data-ng-bind="formData.inputName||'Hello..'">Hello..</h3>
+								<div class="col-lg-6 col-md-6 col-sm-6 col-xs-9">
+									<form data-ng-submit="submit(contactform, $event)"  name="contactform" method="post" class="form-horizontal" role="form">
+										<div class="form-group input--hoshi" data-ng-class="{ 'has-error': contactform.inputName.$invalid && submitted }">
+											<div class="input-wrap">
+												<input data-ng-model="formData.inputName" type="text" class="form-control input__field input input__field--hoshi" id="inputName" name="inputName" placeholder="Name" required>
+												<label class="input__label input__label input__label--hoshi input__label--hoshi-color-1 input__label--hoshi input__label--hoshi-color-1" ></label>
+											</div>	
+										</div>
+										<div class="form-group  input--hoshi" data-ng-class="{ 'has-error': contactform.inputEmail.$invalid && submitted }">
+											<div class="input-wrap">
+												<input data-ng-model="formData.inputEmail" type="email" class="form-control input input__field input__field--hoshi" placeholder="Your Email" id="inputEmail" name="inputEmail" required>
+												<label class="input__label input__label--hoshi input__label--hoshi-color-1"></label>
+											</div>	
+										</div>
+										<div class="form-group  input--hoshi" data-ng-class="{ 'has-error': contactform.inputMessage.$invalid && submitted }">
+											<div class="input-wrap">
+												<textarea data-ng-model="formData.inputMessage" class="form-control input input__field input__field--hoshi" rows="4" id="inputMessage" name="inputMessage" placeholder="message" required></textarea>
+												<label class="input__label input__label--hoshi input__label--hoshi-color-1"></label>
+											</div>	
+										</div>
+										<div class="form-group">
+											<div class="align-center">
+												<button type="submit" class="btn btn-default" data-ng-disabled="submitButtonDisabled">
+													<span><span class="arrow-wrap"><span class="arrow"></span></span></span>
+												</button>
+											</div>
+										</div>
+									</form>
+									<p data-ng-class="result">{{ resultMessage }}</p>
+								</div>
+								 
+							</div>
+							</div>
 						</div>
 							
 						<div class="trans-overlay-dark-contact"></div>	
