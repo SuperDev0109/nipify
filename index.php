@@ -93,10 +93,10 @@
 								
 								<!--CONTENT CHANGED & <br> ADDED-->								
 								<div class="notify-wrap">
-									<h3 class="wellcome-text" data-animation="fadeInLeft" data-animation-delay="900" data-out-animation="fadeOutLeft" data-out-animation-delay="100" data-ng-bind="notifyFullname || 'Full Legal Name..'">Please input Full Legal Name</h3>
+									<h3 class="wellcome-text textGreen" data-animation="fadeInLeft" data-animation-delay="900" data-out-animation="fadeOutLeft" data-out-animation-delay="100" data-ng-bind="notifyFullname || 'Full Legal Name..'">Please input Full Legal Name</h3>
 									<!-- <form id="notifyMe" class="contact-form" action="" method="post"> -->
 										<div class="input-wrap" data-animation="fadeInLeft" data-animation-delay="100" data-out-animation="fadeOutLeft" data-out-animation-delay="900">
-											<input  data-ng-model="notifyFullname" class="col-lg-10  align-center form-control input input__field input__field--hoshi notify-input-box" name="fullname" placeholder="Full Legal Name"  type="text">
+											<input  data-ng-model="notifyFullname" class="col-lg-10  align-center form-control input input__field input__field--hoshi notify-input-box textGreen" name="fullname" id="fullname" placeholder="Full Legal Name"  type="text">
 											<label class="input__label input__label--hoshi input__label--hoshi-color-1"></label>
 										</div>	
 										<div class="notify-btn main-menu">
@@ -124,10 +124,10 @@
 								
 								<!--CONTENT CHANGED & <br> ADDED-->								
 								<div class="notify-wrap">
-									<h3 class="wellcome-text" data-animation="fadeInLeft" data-animation-delay="900" data-out-animation="fadeOutLeft" data-out-animation-delay="100" data-ng-bind="notifyEmail || 'Email Address..'">Please input Email Address</h3>
+									<h3 class="wellcome-text textGreen" data-animation="fadeInLeft" data-animation-delay="900" data-out-animation="fadeOutLeft" data-out-animation-delay="100" data-ng-bind="notifyEmail || 'Email Address..'">Please input Email Address</h3>
 									<!-- <form id="notifyMe" class="contact-form" action="" method="post"> -->
 										<div class="input-wrap" data-animation="fadeInLeft" data-animation-delay="100" data-out-animation="fadeOutLeft" data-out-animation-delay="900">
-											<input  data-ng-model="notifyEmail" class="col-lg-10  align-center form-control input input__field input__field--hoshi notify-input-box" name="email" placeholder="Email"  type="text">
+											<input  data-ng-model="notifyEmail" class="col-lg-10  align-center form-control input input__field input__field--hoshi notify-input-box textGreen" name="email" id="email" placeholder="Email"  type="text">
 											<label class="input__label input__label--hoshi input__label--hoshi-color-1"></label>
 										</div>	
 										<div class="notify-btn main-menu">
@@ -155,10 +155,10 @@
 								
 								<!--CONTENT CHANGED & <br> ADDED-->								
 								<div class="notify-wrap">
-									<h3 class="wellcome-text" data-animation="fadeInLeft" data-animation-delay="900" data-out-animation="fadeOutLeft" data-out-animation-delay="100" data-ng-bind="notifyCountry || 'Country...'">Please input Email Address</h3>
+									<h3 class="wellcome-text textGreen" data-animation="fadeInLeft" data-animation-delay="900" data-out-animation="fadeOutLeft" data-out-animation-delay="100" data-ng-bind="notifyCountry || 'Country...'">Please input Email Address</h3>
 									<!-- <form id="notifyMe" class="contact-form" action="" method="post"> -->
 										<div class="input-wrap" data-animation="fadeInLeft" data-animation-delay="100" data-out-animation="fadeOutLeft" data-out-animation-delay="900">
-											<select data-ng-model="notifyCountry" class="col-lg-10  align-center form-control input input__field input__field--hoshi notify-input-box" name="country" placeholder="Country" id="country">
+											<select data-ng-model="notifyCountry" class="col-lg-10  align-center form-control input input__field input__field--hoshi notify-input-box textGreen" name="country" id="country" placeholder="Country" id="country">
 												<option>France</option>
 												<option>Australia</option>
 												<option>Russia</option>
@@ -190,10 +190,10 @@
 								
 								<!--CONTENT CHANGED & <br> ADDED-->								
 								<div class="notify-wrap">
-									<h3 class="wellcome-text" data-animation="fadeInLeft" data-animation-delay="900" data-out-animation="fadeOutLeft" data-out-animation-delay="100" data-ng-bind="notifyCity || 'City...'">Please input Email Address</h3>
+									<h3 class="wellcome-text textGreen" data-animation="fadeInLeft" data-animation-delay="900" data-out-animation="fadeOutLeft" data-out-animation-delay="100" data-ng-bind="notifyCity || 'City...'">Please input Email Address</h3>
 									<!-- <form id="notifyMe" class="contact-form" action="" method="post"> -->
 										<div class="input-wrap" data-animation="fadeInLeft" data-animation-delay="100" data-out-animation="fadeOutLeft" data-out-animation-delay="900">
-											<select data-ng-model="notifyCity" class="col-lg-10  align-center form-control input input__field input__field--hoshi notify-input-box" name="city" placeholder="City" id="city">
+											<select data-ng-model="notifyCity" class="col-lg-10  align-center form-control input input__field input__field--hoshi notify-input-box textGreen" name="city" id="city" placeholder="City" id="city">
 												<option>Paris</option>
 												<option>Sydney</option>
 												<option>Moscow</option>
@@ -225,7 +225,7 @@
 								
 								<!--CONTENT CHANGED & <br> ADDED-->								
 								<div class="notify-wrap">
-									<h3 class="wellcome-text" data-animation="fadeInLeft" data-animation-delay="900" data-out-animation="fadeOutLeft" data-out-animation-delay="100">Success</h3>
+									<h3 class="wellcome-text textGreen" data-animation="fadeInLeft" data-animation-delay="900" data-out-animation="fadeOutLeft" data-out-animation-delay="100">Success</h3>
 									<!-- <form id="notifyMe" class="contact-form" action="" method="post"> -->
 										<div class="input-wrap" data-animation="fadeInLeft" data-animation-delay="100" data-out-animation="fadeOutLeft" data-out-animation-delay="900">
 											<label class="input__label input__label--hoshi input__label--hoshi-color-1"></label>
@@ -394,32 +394,32 @@
 						<div class="container align-center detail-info">
 							<div class="row">
 							<div data-ng-controller="ContactController" class="panel-body">
-								<h3 class="col-lg-12 col-xs-9" data-ng-bind="formData.inputName||'Hello..'" >Hello..</h3>
+								<h3 class="col-lg-12 col-xs-9 textGreen" data-ng-bind="formData.inputName||'Hello..'" >Hello..</h3>
 								<div class="col-lg-6 col-md-6 col-sm-6 col-xs-9">
 									<form data-ng-submit="submit(contactform, $event)"  name="contactform" method="post" class="form-horizontal" role="form">
 										<div class="form-group input--hoshi" data-ng-class="{ 'has-error': contactform.inputName.$invalid && submitted }">
 											<div class="input-wrap">
-												<input data-ng-model="formData.inputName" type="text" class="form-control input__field input input__field--hoshi textWhite" id="inputName" name="inputName" placeholder="Name" required>
+												<input data-ng-model="formData.inputName" type="text" class="form-control input__field input input__field--hoshi textGreen" id="inputName" name="inputName" placeholder="Name" required>
 												<label class="input__label input__label input__label--hoshi input__label--hoshi-color-1 input__label--hoshi input__label--hoshi-color-1" ></label>
 											</div>	
 										</div>
 										<div class="form-group  input--hoshi" data-ng-class="{ 'has-error': contactform.inputEmail.$invalid && submitted }">
 											<div class="input-wrap">
-												<input data-ng-model="formData.inputEmail" type="email" class="form-control input input__field input__field--hoshi textWhite" placeholder="Your Email" id="inputEmail" name="inputEmail" required>
+												<input data-ng-model="formData.inputEmail" type="email" class="form-control input input__field input__field--hoshi textGreen" placeholder="Your Email" id="inputEmail" name="inputEmail" required>
 												<label class="input__label input__label--hoshi input__label--hoshi-color-1"></label>
 											</div>	
 										</div>
 										<div class="form-group  input--hoshi" data-ng-class="{ 'has-error': contactform.inputMessage.$invalid && submitted }">
 											<div class="input-wrap">
-												<textarea data-ng-model="formData.inputMessage" class="form-control input input__field input__field--hoshi textWhite" rows="4" id="inputMessage" name="inputMessage" placeholder="message" required></textarea>
+												<textarea data-ng-model="formData.inputMessage" class="form-control input input__field input__field--hoshi textGreen" rows="4" id="inputMessage" name="inputMessage" placeholder="message" required></textarea>
 												<label class="input__label input__label--hoshi input__label--hoshi-color-1"></label>
 											</div>	
 										</div>
 										<div class="form-group">
 											<div class="align-center">
-												<button type="submit" class="btn btn-default" data-ng-disabled="submitButtonDisabled">
-													<span><span class="arrow-wrap"><span class="arrow"></span></span></span>
-												</button>
+												<div class="notify-btn main-menu">
+													<a  href="#" class="btn btn-default animated fadeInLeft" style="background-color: #07552a" data-animation="fadeInLeft" data-animation-delay="1000" data-out-animation="fadeInLeft" data-out-animation-delay="600" data-toggle="modal" data-target="#notify-my"><span class="arrow-wrap" style="margin-left: 8px; margin-top: 4px;"><span class="arrow"></span></span></a>
+												</div>
 											</div>
 										</div>
 									</form>

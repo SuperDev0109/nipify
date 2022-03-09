@@ -1,3 +1,31 @@
-.textWhite {
-    color: white !important;
+.textGreen {
+    color: #07552a !important;
+}
+
+#inputName::placeholder {
+    color: #07552a !important;
+}
+
+#inputEmail::placeholder {
+    color: #07552a !important;
+}
+
+#inputMessage::placeholder {
+    color: #07552a !important;
+}
+
+#fullname::placeholder {
+    color: #07552a !important;
+}
+
+#country::placeholder {
+    color: #07552a !important;
+}
+
+#city::placeholder {
+    color: #07552a !important;
+}
+
+#email::placeholder {
+    color: #07552a !important;
 }

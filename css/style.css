@@ -286,8 +286,8 @@ p.tagline, .address-detail a.tagline {
   transition: all 0.2s ease-in-out; }
 .owl-carousel.owl-theme .owl-controls span {
   background: none;
-  border: 2px solid #000;
-  border-radius: 0;
+  border: 2px solid #FFF;
+  border-radius: 50%;
   display: inline-block !important;
   height: 12px;
   margin: 5px 7px;
@@ -298,7 +298,7 @@ p.tagline, .address-detail a.tagline {
 .owl-carousel.owl-theme .owl-nav {
   display: none; }
 .owl-carousel.owl-theme .owl-dot.active span {
-  background: #000; }
+  background: #FFF; }
 
 #qualities .owl-carousel.owl-theme .owl-item {
   background: #fff; }
@@ -515,9 +515,11 @@ p.tagline, .address-detail a.tagline {
   width: 441px; }
 .notify-wrap .input__label--hoshi::before,
 .notify-wrap .input__label--hoshi::after {
-  border-bottom: 4px solid #000; }
+  /* border-bottom: 4px solid #000;  */
+}
 .notify-wrap .input__label--hoshi::after {
-  border-bottom: 8px solid #000; }
+  /* border-bottom: 8px solid #000;  */
+}
 
 .form-control::-webkit-input-placeholder {
   color: #000;
@@ -586,7 +588,7 @@ p.tagline, .address-detail a.tagline {
   padding-bottom: 18px;
   padding-top: 13px; }
   .page-right .form-control:focus {
-    border-color: #000; }
+    border-color: #07552a; }
 .page-right h3 {
   padding-bottom: 52px; }
 .page-right .form-group {
