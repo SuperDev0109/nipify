@@ -207,7 +207,7 @@
 							</section>
 							<!--/Notify City Form-->
 
-							<!-- Notify City Form-->
+							<!-- Notify Success Form-->
 							<section id="contact_success" class="section text-left">
 								<div  class="preloader"></div>	
 								<div class="main-menu">
@@ -224,7 +224,7 @@
 								
 								<!--CONTENT CHANGED & <br> ADDED-->								
 								<div class="notify-wrap">
-									<h3 class="wellcome-text" data-animation="fadeInLeft" data-animation-delay="900" data-out-animation="fadeOutLeft" data-out-animation-delay="100" data-ng-bind="notifyCity || 'Success...'">Success</h3>
+									<h3 class="wellcome-text" data-animation="fadeInLeft" data-animation-delay="900" data-out-animation="fadeOutLeft" data-out-animation-delay="100" data-ng-bind="'Success...'">Success</h3>
 									<!-- <form id="notifyMe" class="contact-form" action="" method="post"> -->
 										<div class="input-wrap" data-animation="fadeInLeft" data-animation-delay="100" data-out-animation="fadeOutLeft" data-out-animation-delay="900">
 											<label class="input__label input__label--hoshi input__label--hoshi-color-1"></label>
@@ -232,7 +232,7 @@
 									<!-- </form> -->
 								</div>
 							</section>
-							<!--/Notify City Form-->
+							<!--/Notify Success Form-->
 													
 							<div class="copyright">
 								<ul class="social-icons">
