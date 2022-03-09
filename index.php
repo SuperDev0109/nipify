@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-		<title id="title">Pogody I Responsive Coming Soon Template</title>
+		<title id="title">Nipify</title>
 		<meta name="description" content="Nipify ™ powered by KPVE Group" />
 		<meta name="keywords" content="Pogody, Responsive Coming Soon Template, Under Construction Template, Responsive Template, HTML5 Template, themeforest.net, Bootstrap, HTML5, Creative, Landing Page, Sass, Clean, Design, Modern, Angular js, MailChimp Subscription," />
 		<meta name="author" content="hencework" />
