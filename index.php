@@ -157,10 +157,10 @@
 									<h3 class="wellcome-text" data-animation="fadeInLeft" data-animation-delay="900" data-out-animation="fadeOutLeft" data-out-animation-delay="100" data-ng-bind="notifyCountry || 'Country...'">Please input Email Address</h3>
 									<!-- <form id="notifyMe" class="contact-form" action="" method="post"> -->
 										<div class="input-wrap" data-animation="fadeInLeft" data-animation-delay="100" data-out-animation="fadeOutLeft" data-out-animation-delay="900">
-											<select data-ng-model="notifyCountry" class="col-lg-10  align-center form-control input input__field input__field--hoshi notify-input-box" name="country" placeholder="Country">
-												<option>Canada</option>
+											<select data-ng-model="notifyCountry" class="col-lg-10  align-center form-control input input__field input__field--hoshi notify-input-box" name="country" placeholder="Country" id="country">
+												<option>France</option>
+												<option>Australia</option>
 												<option>Russia</option>
-												<option>Hong Kong</option>
 											</select>
 											<label class="input__label input__label--hoshi input__label--hoshi-color-1"></label>
 										</div>	
@@ -192,10 +192,10 @@
 									<h3 class="wellcome-text" data-animation="fadeInLeft" data-animation-delay="900" data-out-animation="fadeOutLeft" data-out-animation-delay="100" data-ng-bind="notifyCity || 'City...'">Please input Email Address</h3>
 									<!-- <form id="notifyMe" class="contact-form" action="" method="post"> -->
 										<div class="input-wrap" data-animation="fadeInLeft" data-animation-delay="100" data-out-animation="fadeOutLeft" data-out-animation-delay="900">
-											<select data-ng-model="notifyCity" class="col-lg-10  align-center form-control input input__field input__field--hoshi notify-input-box" name="city" placeholder="City">
+											<select data-ng-model="notifyCity" class="col-lg-10  align-center form-control input input__field input__field--hoshi notify-input-box" name="city" placeholder="City" id="city">
 												<option>Paris</option>
-												<option>Moscow</option>
 												<option>Sydney</option>
+												<option>Moscow</option>
 											</select>
 											<label class="input__label input__label--hoshi input__label--hoshi-color-1"></label>
 										</div>	
@@ -543,5 +543,6 @@
 		<script src="js/notifyMe.js"></script>
 		<script src="js/jquery.placeholder.js"></script>
 		<script src="js/init.js"></script>
+		<script src="js/custom.js"></script>
 	</body>
 </html>
