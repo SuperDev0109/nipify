@@ -386,47 +386,80 @@
 					</div>		
 				</div>
 				<!--/About Section-->
-				
+
 				<!--Contact Section-->
 				<div class="page page-right">
 					<div  class="page-inner full-height">
 						<div class="container align-center detail-info">
+
 							<div class="row">
-							<div data-ng-controller="ContactController" class="panel-body">
-								<h3 class="col-lg-12 col-xs-9 textGreen" data-ng-bind="formData.inputName||'Hello..'" >Hello..</h3>
-								<div class="col-lg-6 col-md-6 col-sm-6 col-xs-9">
-									<form data-ng-submit="submit(contactform, $event)"  name="contactform" method="post" class="form-horizontal" role="form">
-										<div class="form-group input--hoshi" data-ng-class="{ 'has-error': contactform.inputName.$invalid && submitted }">
-											<div class="input-wrap">
-												<input data-ng-model="formData.inputName" type="text" class="form-control input__field input input__field--hoshi textGreen" id="inputName" name="inputName" placeholder="Name" required>
-												<label class="input__label input__label input__label--hoshi input__label--hoshi-color-1 input__label--hoshi input__label--hoshi-color-1" ></label>
-											</div>	
-										</div>
-										<div class="form-group  input--hoshi" data-ng-class="{ 'has-error': contactform.inputEmail.$invalid && submitted }">
-											<div class="input-wrap">
-												<input data-ng-model="formData.inputEmail" type="email" class="form-control input input__field input__field--hoshi textGreen" placeholder="Your Email" id="inputEmail" name="inputEmail" required>
-												<label class="input__label input__label--hoshi input__label--hoshi-color-1"></label>
-											</div>	
-										</div>
-										<div class="form-group  input--hoshi" data-ng-class="{ 'has-error': contactform.inputMessage.$invalid && submitted }">
-											<div class="input-wrap">
-												<textarea data-ng-model="formData.inputMessage" class="form-control input input__field input__field--hoshi textGreen" rows="4" id="inputMessage" name="inputMessage" placeholder="message" required></textarea>
-												<label class="input__label input__label--hoshi input__label--hoshi-color-1"></label>
-											</div>	
-										</div>
-										<div class="form-group">
-											<div class="align-center">
-												<div class="notify-btn main-menu">
-													<a  href="#" class="btn btn-default animated fadeInLeft" style="background-color: #067a3b" data-animation="fadeInLeft" data-animation-delay="1000" data-out-animation="fadeInLeft" data-out-animation-delay="600" data-toggle="modal" data-target="#notify-my"><span class="arrow-wrap" style="margin-left: 8px; margin-top: 4px;"><span class="arrow"></span></span></a>
+								<div data-ng-controller="ContactController" class="panel-body">
+									<div id="contact_form">
+										<h3 class="col-lg-12 col-xs-9 textGreen animated fadeInLeft" data-ng-bind="formData.inputName||'Hello..'" style="animation-delay: 600ms;" >Hello..</h3>
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-9">
+											<form data-ng-submit="submit(contactform, $event)"  name="contactform" method="post" class="form-horizontal" role="form">
+												<div class="form-group input--hoshi animated fadeInLeft" data-ng-class="{ 'has-error': contactform.inputName.$invalid && submitted }" data-animation="fadeInLeft" data-animation-delay="1000" data-out-animation="fadeInLeft" data-out-animation-delay="600" style="animation-delay: 900ms;">
+													<div class="input-wrap">
+														<input data-ng-model="formData.inputName" type="text" class="form-control input__field input input__field--hoshi textGreen" id="inputName" name="inputName" placeholder="Name" required>
+														<label class="input__label input__label input__label--hoshi input__label--hoshi-color-1 input__label--hoshi input__label--hoshi-color-1" ></label>
+													</div>	
 												</div>
-											</div>
+												<div class="form-group  input--hoshi animated fadeInLeft" data-ng-class="{ 'has-error': contactform.inputEmail.$invalid && submitted }" data-animation="fadeInLeft" data-animation-delay="1000" data-out-animation="fadeInLeft" data-out-animation-delay="600" style="animation-delay: 1200ms;">
+													<div class="input-wrap">
+														<input data-ng-model="formData.inputEmail" type="email" class="form-control input input__field input__field--hoshi textGreen" placeholder="Your Email" id="inputEmail" name="inputEmail" required>
+														<label class="input__label input__label--hoshi input__label--hoshi-color-1"></label>
+													</div>	
+												</div>
+												<div class="form-group  input--hoshi animated fadeInLeft" data-ng-class="{ 'has-error': contactform.inputMessage.$invalid && submitted }" data-animation="fadeInLeft" data-animation-delay="1000" data-out-animation="fadeInLeft" data-out-animation-delay="600" style="animation-delay: 1500ms;">
+													<div class="input-wrap">
+														<textarea data-ng-model="formData.inputMessage" class="form-control input input__field input__field--hoshi textGreen" rows="4" id="inputMessage" name="inputMessage" placeholder="message" required></textarea>
+														<label class="input__label input__label--hoshi input__label--hoshi-color-1"></label>
+													</div>	
+												</div>
+												<div class="form-group">
+													<div class="align-center">
+														<div class="notify-btn main-menu animated fadeInLeft">
+															<a  href="#" id="confirm_msg" class="btn btn-default animated fadeInLeft" style="background-color: #067a3b;animation-delay: 1600ms;" data-animation="fadeInLeft" data-animation-delay="1000" data-out-animation="fadeInLeft" data-out-animation-delay="600"><span class="arrow-wrap" style="margin-left: 8px; margin-top: 4px;"><span class="arrow"></span></span></a>
+														</div>
+													</div>
+												</div>
+											</form>
+											<p data-ng-class="result">{{ resultMessage }}</p>
 										</div>
-									</form>
-									<p data-ng-class="result">{{ resultMessage }}</p>
+									</div>
+
+									
+									<!-- Notify Success Form-->
+									<div class="col-lg-6 col-md-6 col-sm-6 col-xs-9">
+										<section id="contact_success_msg" class="section text-left">
+											<!-- <div  class="preloader"></div>	 -->
+											<div class="main-menu animated fadeInLeft" data-animation="fadeInLeft" data-animation-delay="1000" data-out-animation="fadeInLeft" data-out-animation-delay="600" style="animation-delay: 500ms; cursor: pointer">
+												<span class="close-notify black" id="back_contact_form" data-animation="fadeInDown" data-animation-delay="900" data-out-animation="fadeOutUp" data-out-animation-delay="100">
+													<div class="call-to-action">
+														<i class="fa fa-times fa-2x"></i>	
+														<span class="top"></span>
+														<span class="right"></span>
+														<span class="bottom"></span>
+														<span class="left"></span>
+													</div>
+												</span>
+											</div>
+											
+											<!--CONTENT CHANGED & <br> ADDED-->								
+											<div class="notify-wrap">
+												<h3 class="wellcome-text textGreen animated fadeInLeft" style="animation-delay: 700ms;">Success</h3>
+												<!-- <form id="notifyMe" class="contact-form" action="" method="post"> -->
+													<div class="input-wrap">
+														<label class="input__label input__label--hoshi input__label--hoshi-color-1"></label>
+													</div>	
+												<!-- </form> -->
+											</div>
+										</section>
+									</div>
+									<!--/Notify Success Form-->
 								</div>
-								 
 							</div>
-							</div>
+
 						</div>
 							
 						<div class="trans-overlay-dark-contact"></div>	
