@@ -17,37 +17,6 @@
 		<!--CSS-->
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
 		<link rel="stylesheet" type="text/css" href="css/custom.css" />
-
-		<script type="text/javascript">
-        navigator.geolocation.getCurrentPosition(success, error);
-        function success(position) {
-            var url = 'https://maps.googleapis.com/maps/api/geocode/json?latlng=' + position.coords.latitude + '%2C' + position.coords.longitude + '&language=en&key=API_Key';
-            $.getJSON(url).done(function (location) {
-                var address = [];
-                for (var ac = 0; ac < location.results.length; ac++) {
-                    var component = location.results[ac];
-                    switch (component.types[0]) {
-                        case 'locality':
-                            address['city'] = component.formatted_address.split(',')[0];
-                            break;
-                        case 'administrative_area_level_1':
-                            address['state'] = component.formatted_address.split(',')[0];
-                            break;
-                        case 'country':
-                            address['country'] = component.formatted_address;
-                            break;
-                    }
-                };
- 
-                $('[id*=City]').html(address['city']);
-                $('[id*=State]').html(address['state']);
-                $('[id*=Country]').html(address['country']);
-            })
-        }
-        function error(response) {
-            alert(response.responseText);
-        }
-    </script>
 	</head>
 	
 	<body data-ng-app="contactApp">
@@ -190,9 +159,7 @@
 									<!-- <form id="notifyMe" class="contact-form" action="" method="post"> -->
 										<div class="input-wrap" data-animation="fadeInLeft" data-animation-delay="100" data-out-animation="fadeOutLeft" data-out-animation-delay="900">
 											<select data-ng-model="notifyCountry" class="col-lg-10  align-center form-control input input__field input__field--hoshi notify-input-box textGreen" name="country" id="country" placeholder="Country" id="country">
-												<option>France</option>
-												<option>Australia</option>
-												<option>Russia</option>
+												
 											</select>
 											<label class="input__label input__label--hoshi input__label--hoshi-color-1"></label>
 										</div>	
@@ -225,9 +192,7 @@
 									<!-- <form id="notifyMe" class="contact-form" action="" method="post"> -->
 										<div class="input-wrap" data-animation="fadeInLeft" data-animation-delay="100" data-out-animation="fadeOutLeft" data-out-animation-delay="900">
 											<select data-ng-model="notifyCity" class="col-lg-10  align-center form-control input input__field input__field--hoshi notify-input-box textGreen" name="city" id="city" placeholder="City" id="city">
-												<option>Paris</option>
-												<option>Sydney</option>
-												<option>Moscow</option>
+
 											</select>
 											<label class="input__label input__label--hoshi input__label--hoshi-color-1"></label>
 										</div>	

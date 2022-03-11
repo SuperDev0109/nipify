@@ -1,15 +1,35 @@
 $(document).ready(function(){
-    var requestUrl = "https://api.ipregistry.co/?key=tryout";
 
     $.ajax({
-        url: requestUrl,
+        url: "https://api.ipregistry.co/?key=onadwn9qy5mfowl3",
         type: 'GET',
-        success: function(json)
+        success: function(currentLocation)
         {
-            console.log("My country is: " + json.location);
-            console.log(json.location.country.name, json.location.city);
-            $("#country").val(json.location.country.name);
-            $("#city").val(json.location.city);
+            // console.log("My country is: " + currentLocation.location);
+            // console.log(currentLocation.location.country.name, currentLocation.location.city);
+            getCities(currentLocation.location.country.name, currentLocation.location.city);
+
+            $("#country").change(function(){
+                getCities($("#country").val(), currentLocation.location.city);
+            })
+        
+            $.ajax({
+                url: "https://countriesnow.space/api/v0.1/countries/population",
+                type: 'GET',
+                success: function(json)
+                {
+                    $("#country").html("");
+                    for (var i = 0; i < json.data.length; i++) {
+                        $("#country").append('<option value="'+json.data[i].country+'">'+json.data[i].country+'</option>');
+                    }
+                    $("#country").val(currentLocation.location.country.name);
+                },
+                error: function(err)
+                {
+                    console.log("Request failed, error= " + err);
+                }
+            });
+
         },
         error: function(err)
         {
@@ -18,6 +38,30 @@ $(document).ready(function(){
     });
 
 
+    function getCities(country, currentCity) {
+        console.log(country, currentCity);
+        $.ajax({
+            url: "https://countriesnow.space/api/v0.1/countries/population/cities/filter",
+            type: 'POST',
+            data: {
+                country: country
+            },
+            success: function(json)
+            {
+                $("#city").html("");
+
+                for (var i = 0; i < json.data.length; i++) {
+                    $("#city").append('<option>'+json.data[i].city+'</option>');
+                }
+                $("#city").val(currentCity);
+            },
+            error: function(err)
+            {
+                console.log("Request failed, error= " + err);
+            }
+        });
+    }
+    
 
     $("#contact_success_msg").hide();
 
