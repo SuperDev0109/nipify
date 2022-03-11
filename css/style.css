@@ -349,7 +349,7 @@ p.tagline, .address-detail a.tagline {
   #qualities .fa-qual, #team .fa-qual {
     font-size: 36px;
     padding-top: 28px;
-    padding-bottom: 5px; }
+    padding-bottom: 10px; }
   #qualities .qual-tag, #qualities .name, #team .qual-tag, #team .name {
     font-size: 18px;
     font-weight: 600;
