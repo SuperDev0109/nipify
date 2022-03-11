@@ -391,8 +391,8 @@
 							<div class="row">
 								<div data-ng-controller="ContactController" class="panel-body">
 									<div id="contact_form">
-										<h3 class="col-lg-12 col-xs-9 textGreen animated fadeInLeft" data-ng-bind="formData.inputName||'Get in Touch'" style="animation-delay: 600ms;" >Get in Touch</h3>
-										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-9">
+										<h3 class="col-lg-12 col-xs-12 textGreen animated fadeInLeft" data-ng-bind="formData.inputName||'Get in Touch'" style="animation-delay: 600ms;" >Get in Touch</h3>
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 											<form data-ng-submit="submit(contactform, $event)"  name="contactform" method="post" class="form-horizontal" role="form">
 												<div class="form-group input--hoshi animated fadeInLeft" data-ng-class="{ 'has-error': contactform.inputName.$invalid && submitted }" data-animation="fadeInLeft" data-animation-delay="1000" data-out-animation="fadeInLeft" data-out-animation-delay="600" style="animation-delay: 900ms;">
 													<div class="input-wrap">

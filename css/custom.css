@@ -35,3 +35,10 @@
     font-size: 13px;
     font-family: "Poppins", sans-serif;
 }
+
+
+@media only screen and (max-width: 1530px) {
+    .detail-info { 
+        padding : 10%;
+     }
+}
