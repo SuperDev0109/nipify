@@ -8,10 +8,6 @@ $(document).ready(function(){
             // console.log("My country is: " + currentLocation.location);
             // console.log(currentLocation.location.country.name, currentLocation.location.city);
             getCities(currentLocation.location.country.name, currentLocation.location.city);
-
-            $("#country").change(function(){
-                getCities($("#country").val(), currentLocation.location.city);
-            })
         
             $.ajax({
                 url: "https://countriesnow.space/api/v0.1/countries/population",
@@ -36,6 +32,10 @@ $(document).ready(function(){
             console.log("Request failed, error= " + err);
         }
     });
+
+    $("#country").change(function(){
+        getCities($("#country").val(), currentLocation.location.city);
+    })
 
 
     function getCities(country, currentCity) {

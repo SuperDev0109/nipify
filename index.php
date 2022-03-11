@@ -354,7 +354,7 @@
 								</div>	
 								<!--Team Slider-->
 								<div class="col-lg-offset-3 col-md-offset-3 col-sm-offset-3 col-lg-7 col-md-8 col-sm-8 col-xs-9 team-sec">
-									<p class="tagline">Our Team</p>
+									<p class="tagline">Our Technology</p>
 									<span class="small-hr"></span>
 									<div id="team">
 										<div class="team"> 
@@ -391,7 +391,7 @@
 							<div class="row">
 								<div data-ng-controller="ContactController" class="panel-body">
 									<div id="contact_form">
-										<h3 class="col-lg-12 col-xs-9 textGreen animated fadeInLeft" data-ng-bind="formData.inputName||'Hello..'" style="animation-delay: 600ms;" >Hello..</h3>
+										<h3 class="col-lg-12 col-xs-9 textGreen animated fadeInLeft" data-ng-bind="formData.inputName||'Get in Touch'" style="animation-delay: 600ms;" >Get in Touch</h3>
 										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-9">
 											<form data-ng-submit="submit(contactform, $event)"  name="contactform" method="post" class="form-horizontal" role="form">
 												<div class="form-group input--hoshi animated fadeInLeft" data-ng-class="{ 'has-error': contactform.inputName.$invalid && submitted }" data-animation="fadeInLeft" data-animation-delay="1000" data-out-animation="fadeInLeft" data-out-animation-delay="600" style="animation-delay: 900ms;">
@@ -443,7 +443,7 @@
 											
 											<!--CONTENT CHANGED & <br> ADDED-->								
 											<div class="notify-wrap">
-												<h3 class="wellcome-text textGreen animated fadeInLeft" style="animation-delay: 700ms;">Success</h3>
+												<h3 class="wellcome-text textGreen animated fadeInLeft" style="animation-delay: 700ms;">We’ll be in touch</h3>
 												<!-- <form id="notifyMe" class="contact-form" action="" method="post"> -->
 													<div class="input-wrap">
 														<label class="input__label input__label--hoshi input__label--hoshi-color-1"></label>
