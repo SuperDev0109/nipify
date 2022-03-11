@@ -75,7 +75,7 @@ h1, h3, .side-right #countdown span,
 h3 {
   font-size: 55px;
   font-weight: 600;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   letter-spacing: -1px; }
 
 p, .address-detail a {
@@ -119,7 +119,7 @@ p, .address-detail a {
   z-index: -1;
   width: 100%;
   height: 10px;
-  background: #07552a;
+  background: #067a3b;
   -webkit-transform: translate3d(-100%, 0, 0);
   transform: translate3d(-100%, 0, 0);
   pointer-events: none; }
@@ -216,7 +216,7 @@ p.tagline, .address-detail a.tagline {
   padding-bottom: 40px; }
 
 .small-hr {
-  background: #07552a none repeat scroll 0 0;
+  background: #067a3b none repeat scroll 0 0;
   display: block;
   height: 4px;
   width: 32px; }
@@ -233,7 +233,7 @@ p.tagline, .address-detail a.tagline {
     margin-bottom: 23px;
     background: #fff; }
   .page-left .page-inner .trans-overlay-dark-about {
-    background: #07552a;
+    background: #067a3b;
     /* The Fallback */
     /* background: rgba(0, 0, 0, 0.25); */
     position: absolute;
@@ -276,6 +276,8 @@ p.tagline, .address-detail a.tagline {
   text-align: left; }
 
 .owl-carousel.owl-theme .owl-item {
+  display: flex;
+  flex-direction: row;
   min-height: 247px;
   overflow: hidden;
   -webkit-backface-visibility: hidden;
@@ -343,8 +345,7 @@ p.tagline, .address-detail a.tagline {
     display: block; }
   #qualities .item, #team .item {
     padding: 0 32px;
-    overflow: hidden;
-    min-height: 379px; }
+    overflow: hidden;}
   #qualities .fa-qual, #team .fa-qual {
     font-size: 36px;
     padding-top: 28px;
@@ -352,11 +353,17 @@ p.tagline, .address-detail a.tagline {
   #qualities .qual-tag, #qualities .name, #team .qual-tag, #team .name {
     font-size: 18px;
     font-weight: 600;
+    min-height: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
     text-transform: uppercase; }
   #qualities .qual-desc, #team .qual-desc {
     font-size: 12px;
     font-weight: 500;
-    padding: 25px 0; }
+    padding: 15px 0; }
 
 .team-sec {
   margin-top: 20px !important;
@@ -365,12 +372,14 @@ p.tagline, .address-detail a.tagline {
 #team {
   padding-top: 19px; }
   #team .item {
+    background-color: #FFF;
     padding: 0; }
   #team .name {
-    font-size: 16px;
+    font-size: 18px;
     padding-top: 18px; }
   #team .desg {
-    padding: 0;
+    font-family: "Poppins", sans-serif !important;
+    padding: 20px;
     font-size: 13px;
     text-transform: uppercase; }
   #team .team-overlay {
@@ -384,10 +393,12 @@ p.tagline, .address-detail a.tagline {
     transition: all 0.3s ease 0.3s;
     -webkit-transition: all 0.3s ease 0.3s; }
   #team .team-img-wrap {
+    padding: 50px 50px 10px 50px;
     position: relative; }
     #team .team-img-wrap:hover .team-overlay {
-      opacity: 1;
-      visibility: visible; }
+      /* opacity: 1;
+      visibility: visible;  */
+    }
     #team .team-img-wrap .social-icons {
       padding-top: 30%;
       text-align: center; }
@@ -419,8 +430,8 @@ p.tagline, .address-detail a.tagline {
   right: 45px; }
 
 .btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default.focus:active, .btn-default:active:focus, .btn-default:active:hover, .open > .dropdown-toggle.btn-default.focus, .open > .dropdown-toggle.btn-default:focus, .open > .dropdown-toggle.btn-default:hover {
-  background: #07552a;
-  border-color: #07552a;
+  background: #067a3b;
+  border-color: #067a3b;
   color: #fff;
   outline: none; }
 
@@ -429,11 +440,11 @@ p.tagline, .address-detail a.tagline {
   color: #fff;
   letter-spacing: 1px;
   text-transform: uppercase;
-  border-color: #07552a;
+  border-color: #067a3b;
   border-radius: 0;
   height: 57px;
   width: 203px;
-  background: #07552a; }
+  background: #067a3b; }
   .btn:hover, .btn:focus, .btn:active {
     background: #0b803f;
     color: #fff;
@@ -588,7 +599,7 @@ p.tagline, .address-detail a.tagline {
   padding-bottom: 18px;
   padding-top: 13px; }
   .page-right .form-control:focus {
-    border-color: #07552a; }
+    border-color: #067a3b; }
 .page-right h3 {
   padding-bottom: 52px; }
 .page-right .form-group {
@@ -827,7 +838,8 @@ p.tagline, .address-detail a.tagline {
     font-size: 35px; }
 
   .detail-info {
-    padding-top: 8%; }
+    padding-top: 8%;
+  padding-right: 8%; }
 
   .side-right #countdown span, .side-right #countdown li.seperator {
     line-height: 59px; }

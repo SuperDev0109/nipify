@@ -64,9 +64,9 @@
 								<div  class="preloader"></div>
 								<div class="align-center text-left">
 									<span class="small-hr animated fadeInLeft"  data-animation="fadeInLeft" data-out-animation="fadeOutLeft" data-out-animation-delay="200"></span>
-									<p class="animated fadeInLeft"  data-animation="fadeInLeft" data-out-animation="fadeOutLeft" data-out-animation-delay="300" style="color: #07552a">We are busy working on something awesome.</p>
+									<p class="animated fadeInLeft"  data-animation="fadeInLeft" data-out-animation="fadeOutLeft" data-out-animation-delay="300" style="color: #067a3b">We are busy working on something awesome.</p>
 									<div class="type-wrap text-left">
-										<h1  class="animated fadeInLeft"  data-animation="fadeInLeft" data-out-animation="fadeOutLeft" data-out-animation-delay="900"><span id="typed" style="color: #07552a;"></span></h1>
+										<h1  class="animated fadeInLeft"  data-animation="fadeInLeft" data-out-animation="fadeOutLeft" data-out-animation-delay="900"><span id="typed" style="color: #067a3b;"></span></h1>
 									</div>
 									
 									<div class="notify-btn main-menu">
@@ -240,26 +240,26 @@
 								<ul class="social-icons">
 									<li>
 										<a href="" class="social-icon">
-											<i class="fa fa-facebook" style="color: #07552a;"></i>
+											<i class="fa fa-facebook" style="color: #067a3b;"></i>
 										</a>
 									</li>
 									<li>
 										<a href="" class="social-icon">
-											<i class="fa fa-instagram" style="color: #07552a;"></i>
+											<i class="fa fa-instagram" style="color: #067a3b;"></i>
 										</a>
 									</li>
 									<li>
 										<a href="" class="social-icon">
-											<i class="fa fa-youtube-play" style="color: #07552a;"></i>
+											<i class="fa fa-youtube-play" style="color: #067a3b;"></i>
 										</a>
 									</li>
 									<li>
 										<a href="" class="social-icon">
-											<i class="fa fa-twitter" style="color: #07552a;"></i>
+											<i class="fa fa-twitter" style="color: #067a3b;"></i>
 										</a>
 									</li>
 								</ul>
-								<p style="margin-left: 4px; margin-top: 10px; color: #07552a">Nipify ™ powered by KPVE Group</p>
+								<p style="margin-left: 4px; margin-top: 10px; color: #067a3b">Nipify ™ powered by KPVE Group</p>
 							</div>
 						</div>
 						<!--/main content-->
@@ -325,28 +325,28 @@
 									<div id="qualities">
 										<div class="qualities"> 
 											<div class="item" >
-												<span class="fa-qual"><img src="custom/img/tech4.png" style="width: 190px; height: 190px;" /></span>
+												<span class="fa-qual"><img src="custom/img/tech4.png" /></span>
 												<span class="qual-tag"> Secure</span>
 												<span class="qual-desc">
 													We prioritise security and strive to ensure a safe and reliable working platform
 												</span>
 											</div>
 											<div class="item" >
-												<span class="fa-qual"><img src="custom/img/tech1.png" style="width: 190px; height: 190px;" /></span>
+												<span class="fa-qual"><img src="custom/img/tech1.png" /></span>
 												<span class="qual-tag">Global Connections</span>
 												<span class="qual-desc">
 													Connect with likeminded, talented individuals from around the world
 												</span>
 											</div>
 											<div class="item" >
-												<span class="fa-qual"><img src="custom/img/tech3.png" style="width: 190px; height: 190px;" /></span>
+												<span class="fa-qual"><img src="custom/img/tech3.png" /></span>
 												<span class="qual-tag"> Higher Earnings</span>
 												<span class="qual-desc">
 													Guaranteed higher earnings with our platform than our competitors
 												</span>
 											</div>
 											<div class="item" >
-												<span class="fa-qual"><img src="custom/img/tech2.png" style="width: 190px; height: 190px;" /></span>
+												<span class="fa-qual"><img src="custom/img/tech2.png" /></span>
 												<span class="qual-tag"> 24/7 Support</span>
 												<span class="qual-desc">
 													Our Nipify support staff are available to support you 24/7
@@ -357,29 +357,28 @@
 									<!--/Client Slider-->
 								</div>	
 								<!--Team Slider-->
-								<div class="col-lg-offset-3 col-lg-9 col-md-8 col-sm-8 col-xs-9">
-									<p class="tagline">Our Technology</p>
-									<!--Client Slider-->
-									<div id="qualities">
+								<div class="col-lg-offset-3 col-md-offset-3 col-sm-offset-3 col-lg-7 col-md-8 col-sm-8 col-xs-9 team-sec">
+									<p class="tagline">Our Team</p>
+									<span class="small-hr"></span>
+									<div id="team">
 										<div class="team"> 
-											<div class="item" >
-												<span class="fa-qual"><center><img src="custom/img/tech5.png" style="width: 190px; height: 190px;" /></center></span>
-												<span class="qual-tag"> Smart App</span>
-												<span class="qual-desc">
-													Nipify will be available on all smart platform devices
-												</span>
+											<div class="item">
+												<div class="team-img-wrap">
+													<img src="custom/img/tech5.png" alt="team1" />
+												</div>	
+												<span class="name"> Smart App </span>
+												<span class="desgText"> Nipify will be available on all smart platform devices </span>
 											</div>
 											<div class="item" >
-												<span class="fa-qual"><center><img src="custom/img/tech6.png" style="width: 190px; height: 190px;" /></center></span>
-												<span class="qual-tag">Blockchain</span>
-												<span class="qual-desc">
-													We aim to utilise the blockchain technology to provide maximum security and proof of work
-												</span>
+												<div class="team-img-wrap">
+													<img src="custom/img/tech6.png" alt="team1" />
+												</div>	
+												<span class="name"> Blockchain </span>
+												<span class="desgText"> We aim to utilise the blockchain technology to provide maximum security and proof of work	<span>
 											</div>
 										</div>
 									</div>
-									<!--/Client Slider-->
-								</div>
+								</div>	
 								<!--/Team Slider-->
 							</div>
 						</div>
@@ -418,7 +417,7 @@
 										<div class="form-group">
 											<div class="align-center">
 												<div class="notify-btn main-menu">
-													<a  href="#" class="btn btn-default animated fadeInLeft" style="background-color: #07552a" data-animation="fadeInLeft" data-animation-delay="1000" data-out-animation="fadeInLeft" data-out-animation-delay="600" data-toggle="modal" data-target="#notify-my"><span class="arrow-wrap" style="margin-left: 8px; margin-top: 4px;"><span class="arrow"></span></span></a>
+													<a  href="#" class="btn btn-default animated fadeInLeft" style="background-color: #067a3b" data-animation="fadeInLeft" data-animation-delay="1000" data-out-animation="fadeInLeft" data-out-animation-delay="600" data-toggle="modal" data-target="#notify-my"><span class="arrow-wrap" style="margin-left: 8px; margin-top: 4px;"><span class="arrow"></span></span></a>
 												</div>
 											</div>
 										</div>

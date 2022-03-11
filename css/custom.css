@@ -1,31 +1,37 @@
 .textGreen {
-    color: #07552a !important;
+    color: #067a3b !important;
 }
 
 #inputName::placeholder {
-    color: #07552a !important;
+    color: #067a3b !important;
 }
 
 #inputEmail::placeholder {
-    color: #07552a !important;
+    color: #067a3b !important;
 }
 
 #inputMessage::placeholder {
-    color: #07552a !important;
+    color: #067a3b !important;
 }
 
 #fullname::placeholder {
-    color: #07552a !important;
+    color: #067a3b !important;
 }
 
 #country::placeholder {
-    color: #07552a !important;
+    color: #067a3b !important;
 }
 
 #city::placeholder {
-    color: #07552a !important;
+    color: #067a3b !important;
 }
 
 #email::placeholder {
-    color: #07552a !important;
+    color: #067a3b !important;
+}
+
+#team .item .desgText {
+    padding: 20px;
+    font-size: 13px;
+    font-family: "Poppins", sans-serif;
 }

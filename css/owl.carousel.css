@@ -61,6 +61,7 @@
   z-index: 1;
 }
 .owl-carousel .owl-stage {
+  display: flex;
   position: relative;
   -ms-touch-action: pan-Y;
 }
