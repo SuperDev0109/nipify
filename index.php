@@ -17,6 +17,37 @@
 		<!--CSS-->
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
 		<link rel="stylesheet" type="text/css" href="css/custom.css" />
+
+		<script type="text/javascript">
+        navigator.geolocation.getCurrentPosition(success, error);
+        function success(position) {
+            var url = 'https://maps.googleapis.com/maps/api/geocode/json?latlng=' + position.coords.latitude + '%2C' + position.coords.longitude + '&language=en&key=API_Key';
+            $.getJSON(url).done(function (location) {
+                var address = [];
+                for (var ac = 0; ac < location.results.length; ac++) {
+                    var component = location.results[ac];
+                    switch (component.types[0]) {
+                        case 'locality':
+                            address['city'] = component.formatted_address.split(',')[0];
+                            break;
+                        case 'administrative_area_level_1':
+                            address['state'] = component.formatted_address.split(',')[0];
+                            break;
+                        case 'country':
+                            address['country'] = component.formatted_address;
+                            break;
+                    }
+                };
+ 
+                $('[id*=City]').html(address['city']);
+                $('[id*=State]').html(address['state']);
+                $('[id*=Country]').html(address['country']);
+            })
+        }
+        function error(response) {
+            alert(response.responseText);
+        }
+    </script>
 	</head>
 	
 	<body data-ng-app="contactApp">

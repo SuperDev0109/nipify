@@ -1,20 +1,23 @@
 $(document).ready(function(){
-    var requestUrl = "http://ip-api.com/json";
+    var requestUrl = "https://api.ipregistry.co/?key=tryout";
 
     $.ajax({
         url: requestUrl,
         type: 'GET',
         success: function(json)
         {
-            console.log("My country is: " + json.country);
-            $("#country").val(json.country);
-            $("#city").val(json.city);
+            console.log("My country is: " + json.location);
+            console.log(json.location.country.name, json.location.city);
+            $("#country").val(json.location.country.name);
+            $("#city").val(json.location.city);
         },
         error: function(err)
         {
             console.log("Request failed, error= " + err);
         }
     });
+
+
 
     $("#contact_success_msg").hide();
 
